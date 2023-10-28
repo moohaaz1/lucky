@@ -1,0 +1,74 @@
+body {
+  background: url(./img/img.jpg);
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin-top: 150px;
+}
+.section {
+  justify-content: center;
+  text-align: center;
+  background: transparent;
+  border-radius: 20px;
+  border: 1px solid white;
+  backdrop-filter: blur(20px);
+  padding: 20px;
+  width: 300px;
+  height: 350px;
+}
+
+.txtt {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+.txtt-2 input {
+  padding: 10px;
+  width: 220px;
+  margin-bottom: 10px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.txtt-3 input {
+  padding: 10px;
+  width: 220px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.txtt-2 ::placeholder {
+  color: white;
+}
+.txtt-3 ::placeholder {
+  color: white;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 8px;
+  color: white;
+}
+.button-login button {
+  padding: 10px;
+  width: 250px;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+.register {
+  text-align: center;
+  color: white;
+}
+.register span {
+  font-weight: 600;
+}
+footer {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
